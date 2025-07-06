@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Генератор случайных чисел</title>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" href="/favicon.ico" sizes="any">
+		<link rel="icon" href="/icon.svg" type="image/svg+xml">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="page">
+				<div class="page__container container">
+					<div class="page-wrap">
+						<div class="page-inner">
+							<div class="generator">
+								<h1>Генератор чисел</h1>
+								<div id="clickNumber" class="click-info">Номер текущего клика: 0</div>
+								<div class="inputs">
+									<input type="number" id="min" min="0" placeholder="От">
+									<input type="number" id="max" min="1" placeholder="До">
+								</div>
+								<button id="generateBtn">Сгенерировать</button>
+								<div class="result" id="result"></div>
+								<div class="error" id="error"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="js/app-index.js"></script>
+	</body>
+</html>
